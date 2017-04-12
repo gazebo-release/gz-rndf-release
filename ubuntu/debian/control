@@ -1,0 +1,40 @@
+Source: ignition-rndf
+Standards-Version: 3.9.5
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Section: science
+Priority: optional
+Build-Depends: cmake,
+               pkg-config,
+               debhelper (>= 7.0.50~),
+               libignition-math2-dev
+Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-rndf-release
+Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-rndf-release
+Homepage: http://ignitionrobotics.org/
+
+Package: libignition-rndf0
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Classes and functions for parsing RNDF road networks - Shared library
+ Ignition RNDF is a portable C++ library for parsing RNDF road network files.
+
+Package: libignition-rndf-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-math2-dev,
+         libignition-rndf0 (= ${binary:Version})
+Multi-Arch: same
+Description: Classes and functions for parsing RNDF road networks - Development files
+ Ignition RNDF is a portable C++ library for parsing RNDF road network files.
+
+Package: libignition-rndf0-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: libignition-rndf0 (= ${binary:Version}),
+     ${misc:Depends}
+Multi-Arch: same
+Description: Classes and functions for parsing RNDF road networks - Debugging symbols
+ Ignition RNDF is a portable C++ library for parsing RNDF road network files.

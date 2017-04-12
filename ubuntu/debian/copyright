@@ -1,0 +1,9 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ignition_rndf
+Upstream-Contact: gazebo-list@gazebosim.org
+Source: https://bitbucket.org/osrf/ignition-rndf
+
+Files: *
+Copyright: 2017 Open Source Robotics Foundation
+License: Apache
+ See '/usr/share/common-licenses/Apache-2.0'.
