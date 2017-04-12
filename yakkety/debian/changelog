@@ -3,9 +3,3 @@ ignition-rndf (0.1.0-1~yakkety) yakkety; urgency=medium
   * ignition-rndf 0.1.0-1 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 12 Apr 2017 02:45:05 +0200
-
-ignition-rndf (0.0.0-1~yakkety) yakkety; urgency=medium
-
-  * ignition-rndf 0.7.0-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 19 Jan 2017 14:45:04 +0100
