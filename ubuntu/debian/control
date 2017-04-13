@@ -6,7 +6,7 @@ Priority: optional
 Build-Depends: cmake,
                pkg-config,
                debhelper (>= 7.0.50~),
-               libignition-math2-dev
+               libignition-math3-dev
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ign-rndf-release
 Vcs-Hg: https://bitbucket.org/ignitionrobotics/ign-rndf-release
 Homepage: http://ignitionrobotics.org/
@@ -23,7 +23,7 @@ Description: Classes and functions for parsing RNDF road networks - Shared libra
 Package: libignition-rndf-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-math2-dev,
+Depends: libignition-math3-dev,
          libignition-rndf0 (= ${binary:Version})
 Multi-Arch: same
 Description: Classes and functions for parsing RNDF road networks - Development files
